@@ -20,7 +20,7 @@ function App() {
         <div>
           <input type="button" value="7" onClick={e => setValue(value + e.target.value)} />
           <input type="button" value="8" onClick={e => setValue(value + e.target.value)}/>
-          <input type="button" value="0" onClick={e => setValue(value + e.target.value)}/>
+          <input type="button" value="9" onClick={e => setValue(value + e.target.value)}/>
           <input type="button" value="*" onClick={e => setValue(value + e.target.value)}/>
         </div>
         <div>
